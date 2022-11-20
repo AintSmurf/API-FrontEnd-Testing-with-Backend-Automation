@@ -1,6 +1,6 @@
-#Welcome to E Commerce website Testing
+# Welcome to E Commerce website Testing
 
-#Set Up The FrameWork:
+# Set Up The FrameWork:
 
 # 1.Important things:
 
