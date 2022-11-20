@@ -2,7 +2,7 @@
 
 #Set Up The FrameWork:
 
-#1.Important things:
+# 1.Important things:
 
 • The project supports only chrome.
 
@@ -23,7 +23,7 @@ project)
 
 
 
-#Must do in WordPress :
+# Must do in WordPress :
 
 1) Download the zip file file from here if u run WordPress locally.
 
@@ -41,7 +41,7 @@ file.
 6) Must create coupon code: marketing -> coupon (coupon type percentage discount)
 
 
-#2.set up the Credantials.ps1:
+# 2.set up the Credantials.ps1:
 
 • WC_KEY – WordPress public key
 
@@ -71,7 +71,7 @@ users)
 • Host - machine = ur local pc , docker= docker container
 
 
-#3.Set up The Testing Environment:
+# 3.Set up The Testing Environment:
 
 1) Create python virtual environment:
 
@@ -90,7 +90,7 @@ environment -> click on Location -> paste you’re python.exe path
 
 
 
-#4. Set Up The Selenium Path:
+# 4. Set Up The Selenium Path:
 
 1) copy the chrome driver.exe to the “front” folder.
 
@@ -99,7 +99,7 @@ environment -> click on Location -> paste you’re python.exe path
 1.2) copy the path you got in the terminal to Credantials.ps1 (SELPATH=” whatever path 
 you have copied”).
 
-#5.Testing Section:
+# 5.Testing Section:
 
 BackEnd Section:
 
