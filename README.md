@@ -17,7 +17,8 @@ project)
 
 •tcids3  "test_register_new_user_failed()" will fail you need to set it up manually with existing user.
 
-•Instructions on how to run on DOcker and Jenkins will be added soon.
+•Instructions on how to run on Jenkins will be added soon.
+
 •PDF file provided whoever dislikes MD files.
 
 
