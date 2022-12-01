@@ -1,5 +1,4 @@
 import pytest
-import logging as logger
 from backend.src.utilities.requestsUtility import RequestsUtility
 
 

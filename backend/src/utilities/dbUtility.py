@@ -14,9 +14,10 @@ class DBUtility():
             connection = pymysql.connect(host=os.getenv('DB_SERVER'),user=self.creds['db_user'],
                                          password=self.creds['db_password'], database=self.creds['db_name'])
             return connection
-        connection = pymysql.connect(host=os.getenv('DB_SERVER'), user=self.creds['db_user'],
-                                     password=self.creds['db_password'], database=self.creds['db_name'], port=int(os.environ.get("PORT")))
-        return  connection
+        else:
+            connection = pymysql.connect(host=os.getenv('DB_SERVER'), user=self.creds['db_user'],
+                                         password=self.creds['db_password'], database=self.creds['db_name'], port=int(os.environ.get("PORT")))
+            return connection
     def execute_select(self,sql):
         conn = self.create_connection()
         try:

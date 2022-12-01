@@ -9,7 +9,8 @@ class ProductsDAO():
     def __init__(self):
         self.db_helper = DBUtility()
 
-    def get_random_product_id(self, qty=1):
+    def get_random_product_from_db(self, qty=1):
+
         if qty >= 5000:
             raise Exception(f"please Enter number less than 5000 you've entered:{qty}")
 
