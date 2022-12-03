@@ -8,5 +8,4 @@ set SELPATH=''
 set ENVSEL=''
 set COUPON=''
 set PORT=''
-set Host=''
 
