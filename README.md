@@ -112,11 +112,15 @@ BackEnd Section:
 
 • tcido stands for – test case id for orders.
 
+• tcidco stands for – test case id for coupons.
+
 • customers – pytest -m customers. (Run all the costumer tests)
 
 • products – pytest -m products. (Run all the product tests.)
 
 • orders – pytest -m orders. (Run all the orders tests)
+
+• coupons – pytest -m coupons. (Run all the coupons tests)
 
 Selenium Section:
 
