@@ -8,5 +8,4 @@ $env:SELPATH=''
 $env:ENVSEL=''
 $env:COUPON=''
 $env:PORT=''
-$env:Host=''
 

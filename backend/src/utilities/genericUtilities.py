@@ -33,5 +33,9 @@ def generate_random_username(name=None):
     random_string = ''.join(random.choices(string.ascii_lowercase, k=random_email_string_length))
     return random_string
 
+def generate_random_coupon_name():
+    random_cp_length = 10
+    random_string = ''.join(random.choices(string.digits, k=random_cp_length))
+    return  random_string
 
 

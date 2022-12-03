@@ -1,7 +1,7 @@
 from setuptools import setup,find_packages
 
 setup(name="Ecommerce Site Testing",
-    version="2.0",
+    version="2.5",
     description="Final QA Project",
     packages=find_packages(),
     install_requires=[
